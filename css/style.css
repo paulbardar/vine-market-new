@@ -1,0 +1,126 @@
+body{
+	font: 400 16px 'Lato', Arial, sans-serif;
+    color: #47A3DA;
+    background: #fff;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+	margin: 80px auto;
+	padding: 0 20px 20px 20px	;
+	max-width: 80%;
+	border: 3px solid #47a3da;
+
+}
+header {
+	margin: 0;
+}
+.ba-header h1 {
+	font-size: 24px;
+	padding: 20px 0;
+	margin: 0;
+	border-bottom: 4px solid;
+}
+
+.item-field {
+	padding: 20px 20px;
+}
+.item-field img {
+	display: block;
+	margin: 0 auto;
+}
+.item-field a {
+	text-decoration: none;
+	font-size: 2em;
+	color: #47a3da;
+}
+.item-field h3 {
+	text-align: center;
+	padding: 0 0 0 0;
+	margin: 0;
+}
+.item-field .ba-price {
+	font-size: 1.5em;
+	color: #C0C0C0;
+	text-align: center;
+	margin: 10px;
+}
+.ba-product-description {
+	max-width: 300px;
+    min-height: 90px;
+    text-align: center;
+}
+.ba-add-to-cart {
+	padding: 25px 25px;
+	color: #fff;
+	background: #47A3DA;
+	border: none;
+	border-radius: 2px;
+	display: block;
+	margin: 0 auto;
+}
+.ba-add-to-cart:hover {
+	background: #02639D;
+}
+.ba-add-to-cart::before {
+	content: "+";
+	font-size: 16px;
+	display: inline-block;
+	margin-right: 10px;
+	width: 15px;
+	border-radius: 50%;
+	color: #47A3DA;
+	background: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+}
